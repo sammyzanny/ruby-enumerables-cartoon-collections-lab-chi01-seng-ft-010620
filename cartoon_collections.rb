@@ -1,8 +1,6 @@
 def roll_call_dwarves(array)
-  call = {}
   array.each_with_index{|item,index|
-  call[item] = index}
-  call
+  puts index
   
 end
 
